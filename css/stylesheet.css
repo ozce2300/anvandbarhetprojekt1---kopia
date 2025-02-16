@@ -245,3 +245,14 @@ h2 {
     text-align: center;
 
 }
+
+.icon-div a {
+    display: flex;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-div a:hover {
+    color: grey;
+}
+
