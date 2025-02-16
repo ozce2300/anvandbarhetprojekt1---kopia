@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Färdtjänst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="javascript/main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header aria-label="Huvudmeny">
+            <a href="index.html" aria-label="Gå till startsidan"><img id="logga" src="images/Nyttprojekt.png" alt="logo"></a>
+            <p class="header-heading1">Färdtjänst</p>
+            <img class="user-solid" aria-label="Logga in" src="images/user-solid.svg" alt="Användarikon">
+        </header>
+
+        <main class="main-inlog" id="main-inlogg" aria-labelledby="main-heading">
+            <h1 id="main-heading">Boka resa</h1>
+            <div class="form-container">
+                <form class="inlog-info" aria-labelledby="form-heading">
+                    <h2 id="form-heading">Bokningsformulär</h2>
+
+                    <label for="from">Från</label>
+                    <input type="text" id="from" aria-required="true" required>
+                    <label for="to">Till</label>
+                    <input type="text" id="to" aria-required="true" required>
+                    <label for="date">Datum</label>
+                    <input type="date" id="date" aria-required="true" required>
+                    <label for="time">Tid</label>
+                    <input type="time" id="time" aria-required="true" required>
+
+                    <fieldset>
+                        <legend>Återkommande resa</legend>
+                        <div class="div-radio">
+                            <label for="yes">Ja</label>
+                            <input class="radio" type="radio" name="radio-travel" id="yes" value="Ja" required>
+                            <label for="no">Nej</label>
+                            <input class="radio" type="radio" name="radio-travel" id="no" value="Nej" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Om ja, hur ofta?</legend>
+                        <div class="div-radio-often">
+                            <div class="div-radio">
+                                <label for="everyday">Varje dag</label>
+                                <input class="radio" type="radio" name="how-often" id="everyday" value="Varje dag" required>
+                            </div>
+                            <div class="div-radio">
+                                <label for="week">Varje vecka</label>
+                                <input class="radio" type="radio" name="how-often" id="week" value="Varje vecka" required>
+                            </div>
+                            <div class="div-radio">
+                                <label for="month">Varje månad</label>
+                                <input class="radio" type="radio" name="how-often" id="month" value="Varje månad" required>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <div class="btn-flex">
+                        <button type="submit" id="button-booking" class="btn" aria-label="Boka resa">Boka</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <section class="sektion-bokning" aria-labelledby="my-bookings-heading">
+            <h2 id="my-bookings-heading">Mina bokningar</h2>
+            <div id="mina-bokningar" role="list">
+            </div>
+        </section>
+
+        <footer aria-label="meny sidfot">
+            <div class="footer-icons">
+                <div class="icon-div">
+                    <img class="icons" src="images/phone-solid.svg" alt="Telefon-ikon">
+                    <p>0700-12345678</p>
+                </div>
+                <div class="icon-div">
+                    <img class="icons" src="images/envelope-solid.svg" alt="Plats-ikon">
+                    <p>fardtjanst@fardtjänst.se</p>
+                </div>
+                <div class="icon-div">
+                    <img class="icons" src="images/location-dot-solid.svg" alt="Adress-ikon">
+                    <p>Färdtjänstgatan 5<br>
+                        400 11 Göteborg</p>
+                </div>
+            </div>
+    
+    
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+
+body {
+    background-color: #FFF6F8;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 420px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+    min-width: 300px;
+    height: 62px;
+    background-color: #0077B6;
+
+}
+
+#logga {
+    width: 42px;
+    height: 41px;
+}
+
+.header-heading1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.user-solid {
+    width: 25px;
+    height: 25px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/trafik.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+
+}
+
+.middle-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 304px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF6F8;
+
+}
+
+h1 {
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.card {
+    padding: 100px 30px;
+    width: 95%;
+    min-width: 350px;
+    background-color: #0077B6;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.card a {
+    color: black;
+}
+
+.card-paragraph {
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.card h2 {
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 293px;
+    background-color: #0077B6;
+
+}
+
+.icons {
+    width: 25px;
+    height: 24px;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.icon-div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.icon-div>p {
+    font-size: 24px;
+    color: white;
+    line-height: 1;
+}
+
+.main-inlog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF6F8;
+    padding-top: 100px;
+}
+
+
+
+.inlog-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    width: 287px;
+    height: 58px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn {
+    cursor:pointer;
+    background-color: #0077B6;
+    color: white;
+    font-size: 24px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-delete{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#btn-login {
+    margin-bottom: 80px;
+}
+.div-radio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-radio-often {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    width: 15px;
+
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto 0 auto;
+    border-bottom: solid 0.5px grey;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+.p-bokningar {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sektion-bokning {
+    margin-top: 40px;
+    padding-top: 40px;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+
+}
